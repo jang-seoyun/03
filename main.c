@@ -17,6 +17,5 @@ int main(int argc, char *argv[]) {
 	printf("interger : %d, float : %f\n", input_int, input_float);
 	
 	system("PAUSE");
-	
 	return 0;
 }
