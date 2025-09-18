@@ -5,15 +5,17 @@
 
 int main(void) 
 {
-  char c;
-  int i;
-  
-  
-  printf("input a number :");
-  scanf("%c", &c);
-  
-  
-  i= c-'0';
-  printf("The input number is %i\n",i);
+	char c, d;
+	
+		
+	printf("enter a character : ");
+	scanf("%c", &c);
+	
+	d = c + 1;
+	
+	printf("the next character of %c (%i) is %c (%i).\n",c, c, d, d);
+	
+	 
+	
 	return 0;
 }
